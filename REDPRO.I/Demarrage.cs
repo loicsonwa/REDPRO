@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Form1 : Form
+    public partial class Demarrage : Form
     {
-        public Form1()
+        public Demarrage()
         {
             InitializeComponent();
         }

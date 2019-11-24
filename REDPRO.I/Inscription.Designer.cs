@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inscription));
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
@@ -49,6 +48,7 @@
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inscription));
             this.panel1 = new System.Windows.Forms.Panel();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
@@ -60,11 +60,16 @@
             this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.bunifuTextBox5 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.bunifuDropdown1 = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.gunaLabel4);
+            this.panel1.Controls.Add(this.gunaAdvenceButton2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(378, 0);
             this.panel1.Name = "panel1";
@@ -538,6 +543,51 @@
             this.bunifuDropdown1.TabIndex = 10;
             this.bunifuDropdown1.Text = "Votre poste";
             // 
+            // gunaAdvenceButton2
+            // 
+            this.gunaAdvenceButton2.Animated = true;
+            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.Red;
+            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.BorderSize = 2;
+            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
+            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
+            this.gunaAdvenceButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.Location = new System.Drawing.Point(9, 297);
+            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
+            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Red;
+            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.Red;
+            this.gunaAdvenceButton2.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.OnHoverImage")));
+            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.Red;
+            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Red;
+            this.gunaAdvenceButton2.Radius = 10;
+            this.gunaAdvenceButton2.Size = new System.Drawing.Size(153, 42);
+            this.gunaAdvenceButton2.TabIndex = 11;
+            this.gunaAdvenceButton2.Text = "Se connecter";
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel4.Location = new System.Drawing.Point(6, 266);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(174, 16);
+            this.gunaLabel4.TabIndex = 11;
+            this.gunaLabel4.Text = "Vous avez déjà un compte ?";
+            // 
             // Inscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -557,6 +607,8 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name = "Inscription";
             this.Size = new System.Drawing.Size(566, 579);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -575,5 +627,7 @@
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox bunifuTextBox4;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox bunifuTextBox5;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel4;
+        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace REDPRO.I
 {
-    partial class Form1
+    partial class Demarrage
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

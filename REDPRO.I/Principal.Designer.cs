@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement16 = new DevExpress.XtraEditors.TileItemElement();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
@@ -121,7 +121,7 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.White;
             this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.Red;
-            this.gunaLabel1.Location = new System.Drawing.Point(709, 1);
+            this.gunaLabel1.Location = new System.Drawing.Point(703, 1);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(107, 28);
             this.gunaLabel1.TabIndex = 4;
@@ -151,21 +151,21 @@
             // tileBarItem6
             // 
             this.tileBarItem6.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement8.AnimateTransition = DevExpress.Utils.DefaultBoolean.True;
-            tileItemElement8.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement8.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement8.Appearance.Normal.BackColor = System.Drawing.Color.Transparent;
-            tileItemElement8.Appearance.Normal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement8.Appearance.Normal.Options.UseBackColor = true;
-            tileItemElement8.Appearance.Normal.Options.UseFont = true;
-            tileItemElement8.Appearance.Pressed.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement8.Appearance.Pressed.Options.UseFont = true;
-            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement8.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
-            tileItemElement8.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement8.Text = "CLIENTS";
-            this.tileBarItem6.Elements.Add(tileItemElement8);
+            tileItemElement9.AnimateTransition = DevExpress.Utils.DefaultBoolean.True;
+            tileItemElement9.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement9.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement9.Appearance.Normal.BackColor = System.Drawing.Color.Transparent;
+            tileItemElement9.Appearance.Normal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement9.Appearance.Normal.Options.UseBackColor = true;
+            tileItemElement9.Appearance.Normal.Options.UseFont = true;
+            tileItemElement9.Appearance.Pressed.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement9.Appearance.Pressed.Options.UseFont = true;
+            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement9.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement9.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
+            tileItemElement9.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement9.Text = "CLIENTS";
+            this.tileBarItem6.Elements.Add(tileItemElement9);
             this.tileBarItem6.Id = 0;
             this.tileBarItem6.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem6.Name = "tileBarItem6";
@@ -218,13 +218,13 @@
             // tileBarItem1
             // 
             this.tileBarItem1.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement3.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement3.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement3.Text = "CLIENTS";
-            this.tileBarItem1.Elements.Add(tileItemElement3);
+            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement10.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement10.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement10.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement10.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement10.Text = "CLIENTS";
+            this.tileBarItem1.Elements.Add(tileItemElement10);
             this.tileBarItem1.Id = 0;
             this.tileBarItem1.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem1.Name = "tileBarItem1";
@@ -238,11 +238,11 @@
             // tileBarItem2
             // 
             this.tileBarItem2.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement4.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement4.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement4.Text = "FOURNISSEUR";
-            this.tileBarItem2.Elements.Add(tileItemElement4);
+            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement11.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement11.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement11.Text = "FOURNISSEUR";
+            this.tileBarItem2.Elements.Add(tileItemElement11);
             this.tileBarItem2.Id = 1;
             this.tileBarItem2.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem2.Name = "tileBarItem2";
@@ -251,11 +251,11 @@
             // tileBarItem3
             // 
             this.tileBarItem3.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement1.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement1.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement1.Text = "PRODUITS";
-            this.tileBarItem3.Elements.Add(tileItemElement1);
+            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement12.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement12.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement12.Text = "PRODUITS";
+            this.tileBarItem3.Elements.Add(tileItemElement12);
             this.tileBarItem3.Id = 2;
             this.tileBarItem3.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem3.Name = "tileBarItem3";
@@ -264,11 +264,11 @@
             // tileBarItem4
             // 
             this.tileBarItem4.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement2.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement2.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement2.Text = "GESTION DE STOCK";
-            this.tileBarItem4.Elements.Add(tileItemElement2);
+            tileItemElement13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement13.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement13.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement13.Text = "GESTION DE STOCK";
+            this.tileBarItem4.Elements.Add(tileItemElement13);
             this.tileBarItem4.Id = 3;
             this.tileBarItem4.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem4.Name = "tileBarItem4";
@@ -282,11 +282,11 @@
             // tileBarItem5
             // 
             this.tileBarItem5.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            tileItemElement5.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement5.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement5.Text = "BANQUE ET CAISSE";
-            this.tileBarItem5.Elements.Add(tileItemElement5);
+            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement14.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement14.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement14.Text = "BANQUE ET CAISSE";
+            this.tileBarItem5.Elements.Add(tileItemElement14);
             this.tileBarItem5.Id = 4;
             this.tileBarItem5.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem5.Name = "tileBarItem5";
@@ -321,11 +321,11 @@
             // tileBarItem7
             // 
             this.tileBarItem7.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            tileItemElement6.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement6.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement6.Text = "TÂCHES";
-            this.tileBarItem7.Elements.Add(tileItemElement6);
+            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement15.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement15.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement15.Text = "TÂCHES";
+            this.tileBarItem7.Elements.Add(tileItemElement15);
             this.tileBarItem7.Id = 5;
             this.tileBarItem7.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem7.Name = "tileBarItem7";
@@ -338,11 +338,11 @@
             // tileBarItem8
             // 
             this.tileBarItem8.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement7.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement7.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement7.Text = "STATISTIQUES";
-            this.tileBarItem8.Elements.Add(tileItemElement7);
+            tileItemElement16.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement16.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement16.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement16.Text = "STATISTIQUES";
+            this.tileBarItem8.Elements.Add(tileItemElement16);
             this.tileBarItem8.Id = 6;
             this.tileBarItem8.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem8.Name = "tileBarItem8";

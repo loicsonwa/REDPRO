@@ -103,7 +103,7 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.White;
             this.gunaLabel2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel2.Location = new System.Drawing.Point(139, 2);
+            this.gunaLabel2.Location = new System.Drawing.Point(139, 0);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(112, 23);
             this.gunaLabel2.TabIndex = 8;
@@ -547,9 +547,9 @@
             this.gunaPanel2.Controls.Add(this.gunaAdvenceTileButton5);
             this.gunaPanel2.Controls.Add(this.gunaAdvenceTileButton4);
             this.gunaPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gunaPanel2.Location = new System.Drawing.Point(0, 494);
+            this.gunaPanel2.Location = new System.Drawing.Point(0, 500);
             this.gunaPanel2.Name = "gunaPanel2";
-            this.gunaPanel2.Size = new System.Drawing.Size(1366, 70);
+            this.gunaPanel2.Size = new System.Drawing.Size(1366, 64);
             this.gunaPanel2.TabIndex = 4;
             // 
             // gunaAdvenceTileButton5
@@ -595,7 +595,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.ShowSplitGlyph = DevExpress.Utils.DefaultBoolean.True;
-            this.splitContainerControl1.Size = new System.Drawing.Size(1366, 463);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1366, 469);
             this.splitContainerControl1.SplitterPosition = 241;
             this.splitContainerControl1.TabIndex = 5;
             // 
@@ -642,7 +642,7 @@
             this.TileControl.Name = "TileControl";
             this.TileControl.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.TileControl.SelectedItem = this.tileItem7;
-            this.TileControl.Size = new System.Drawing.Size(241, 463);
+            this.TileControl.Size = new System.Drawing.Size(241, 469);
             this.TileControl.TabIndex = 1;
             this.TileControl.Text = "tileControl1";
             // 

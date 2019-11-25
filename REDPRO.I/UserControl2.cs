@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Principal : Form
+    public partial class UserControl2 : UserControl
     {
-        public Principal()
+        public UserControl2()
         {
             InitializeComponent();
         }
 
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tileBarItem4_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void tileItem1_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
 
         }

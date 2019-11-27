@@ -28,75 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Infragistics.Win.Appearance appearance1 = new Infragistics.Win.Appearance();
-            this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.ultraPanel1 = new Infragistics.Win.Misc.UltraPanel();
-            this.ultraPanel1.SuspendLayout();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.tileView1 = new DevExpress.XtraGrid.Views.Tile.TileView();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.Code = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Designation = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Prix = new DevExpress.XtraGrid.Columns.GridColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tileView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // gunaPanel1
+            // gridControl1
             // 
-            this.gunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.gunaPanel1.Location = new System.Drawing.Point(607, 137);
-            this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(316, 215);
-            this.gunaPanel1.TabIndex = 0;
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridControl1.Location = new System.Drawing.Point(0, 0);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(1075, 485);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.tileView1,
+            this.gridView1});
             // 
-            // gunaLabel2
+            // tileView1
             // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.Location = new System.Drawing.Point(703, 260);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(133, 25);
-            this.gunaLabel2.TabIndex = 2;
-            this.gunaLabel2.Text = "gunaLabel2";
+            this.tileView1.GridControl = this.gridControl1;
+            this.tileView1.Name = "tileView1";
             // 
-            // gunaLabel1
+            // gridView1
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(685, 169);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(133, 25);
-            this.gunaLabel1.TabIndex = 3;
-            this.gunaLabel1.Text = "gunaLabel1";
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.Code,
+            this.Designation,
+            this.Prix});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
             // 
-            // ultraPanel1
+            // Code
             // 
-            appearance1.AlphaLevel = ((short)(65));
-            appearance1.BackColor = System.Drawing.Color.Black;
-            appearance1.BackColorAlpha = Infragistics.Win.Alpha.UseAlphaLevel;
-            this.ultraPanel1.Appearance = appearance1;
-            this.ultraPanel1.Location = new System.Drawing.Point(3, 3);
-            this.ultraPanel1.Name = "ultraPanel1";
-            this.ultraPanel1.Size = new System.Drawing.Size(1072, 479);
-            this.ultraPanel1.TabIndex = 4;
+            this.Code.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Code.AppearanceCell.Options.UseFont = true;
+            this.Code.AppearanceHeader.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Code.AppearanceHeader.Options.UseFont = true;
+            this.Code.Caption = "CODE";
+            this.Code.MinWidth = 25;
+            this.Code.Name = "Code";
+            this.Code.Visible = true;
+            this.Code.VisibleIndex = 0;
+            this.Code.Width = 168;
+            // 
+            // Designation
+            // 
+            this.Designation.Caption = "DESIGNATION";
+            this.Designation.Name = "Designation";
+            this.Designation.Visible = true;
+            this.Designation.VisibleIndex = 1;
+            this.Designation.Width = 440;
+            // 
+            // Prix
+            // 
+            this.Prix.Caption = "PRIX";
+            this.Prix.Name = "Prix";
+            this.Prix.Visible = true;
+            this.Prix.VisibleIndex = 2;
+            this.Prix.Width = 442;
             // 
             // ListeProduit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
-            this.Controls.Add(this.ultraPanel1);
-            this.Controls.Add(this.gunaLabel1);
-            this.Controls.Add(this.gunaLabel2);
-            this.Controls.Add(this.gunaPanel1);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.gridControl1);
             this.Name = "ListeProduit";
             this.Size = new System.Drawing.Size(1075, 485);
-            this.ultraPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tileView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Guna.UI.WinForms.GunaPanel gunaPanel1;
-        private Guna.UI.WinForms.GunaLabel gunaLabel2;
-        private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Infragistics.Win.Misc.UltraPanel ultraPanel1;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn Code;
+        private DevExpress.XtraGrid.Columns.GridColumn Designation;
+        private DevExpress.XtraGrid.Columns.GridColumn Prix;
+        private DevExpress.XtraGrid.Views.Tile.TileView tileView1;
     }
 }

@@ -82,10 +82,12 @@
             this.tileGroup6 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
+            this.listeProduit1 = new REDPRO.I.ListeProduit();
             this.gunaPanel1.SuspendLayout();
             this.gunaPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
+            this.gunaPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaPanel1
@@ -787,11 +789,21 @@
             // 
             // gunaPanel3
             // 
+            this.gunaPanel3.Controls.Add(this.listeProduit1);
             this.gunaPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaPanel3.Location = new System.Drawing.Point(0, 0);
             this.gunaPanel3.Name = "gunaPanel3";
             this.gunaPanel3.Size = new System.Drawing.Size(1075, 485);
             this.gunaPanel3.TabIndex = 0;
+            // 
+            // listeProduit1
+            // 
+            this.listeProduit1.BackColor = System.Drawing.Color.White;
+            this.listeProduit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listeProduit1.Location = new System.Drawing.Point(0, 0);
+            this.listeProduit1.Name = "listeProduit1";
+            this.listeProduit1.Size = new System.Drawing.Size(1075, 485);
+            this.listeProduit1.TabIndex = 0;
             // 
             // AllProduit
             // 
@@ -810,6 +822,7 @@
             this.gunaPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
+            this.gunaPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -847,5 +860,6 @@
         private DevExpress.XtraEditors.TileGroup tileGroup6;
         private DevExpress.XtraEditors.TileItem tileItem1;
         private Guna.UI.WinForms.GunaPanel gunaPanel3;
+        private ListeProduit listeProduit1;
     }
 }

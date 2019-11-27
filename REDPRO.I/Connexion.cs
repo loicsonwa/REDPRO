@@ -14,9 +14,16 @@ namespace REDPRO.I
     {
         public Connexion()
         {
+            //if (Program.IsInDesignMode())
+            //{
+            //    return;
+            //}
             InitializeComponent();
         }
 
-      
+        private void versIncription_Click(object sender, EventArgs e)
+        {
+            Demarrage.MainInstance.AfficheInscription();
+        }
     }
 }

@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.XtraScheduler;
 
 namespace REDPRO.I
 {
-    public partial class Inscription : UserControl
+    public partial class AddProduit : UserControl
     {
-        public Inscription()
+        public AddProduit()
         {
             //if (Program.IsInDesignMode())
             //{
@@ -21,9 +22,9 @@ namespace REDPRO.I
             InitializeComponent();
         }
 
-        private void versConnexion_Click(object sender, EventArgs e)
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
-            Demarrage.MainInstance.AfficheConnexion();
+
         }
     }
 }

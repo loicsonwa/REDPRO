@@ -81,6 +81,7 @@
             this.tileItem5 = new DevExpress.XtraEditors.TileItem();
             this.tileGroup6 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
+            this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanel1.SuspendLayout();
             this.gunaPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -93,8 +94,9 @@
             this.gunaPanel1.Controls.Add(this.gunaLabel1);
             this.gunaPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaPanel1.Location = new System.Drawing.Point(0, 0);
+            this.gunaPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(1366, 31);
+            this.gunaPanel1.Size = new System.Drawing.Size(1366, 38);
             this.gunaPanel1.TabIndex = 0;
             // 
             // gunaLabel2
@@ -103,7 +105,7 @@
             this.gunaLabel2.BackColor = System.Drawing.Color.White;
             this.gunaLabel2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel2.Location = new System.Drawing.Point(139, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(162, 0);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(112, 23);
             this.gunaLabel2.TabIndex = 8;
@@ -115,7 +117,7 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.White;
             this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.Red;
-            this.gunaLabel1.Location = new System.Drawing.Point(13, -2);
+            this.gunaLabel1.Location = new System.Drawing.Point(15, -2);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(120, 28);
             this.gunaLabel1.TabIndex = 7;
@@ -417,9 +419,10 @@
             this.bunifuTextBox2.IconRight = null;
             this.bunifuTextBox2.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2.Lines = new string[0];
-            this.bunifuTextBox2.Location = new System.Drawing.Point(861, 16);
+            this.bunifuTextBox2.Location = new System.Drawing.Point(1005, 10);
+            this.bunifuTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuTextBox2.MaxLength = 32767;
-            this.bunifuTextBox2.MinimumSize = new System.Drawing.Size(100, 35);
+            this.bunifuTextBox2.MinimumSize = new System.Drawing.Size(117, 43);
             this.bunifuTextBox2.Modified = false;
             this.bunifuTextBox2.Multiline = false;
             this.bunifuTextBox2.Name = "bunifuTextBox2";
@@ -452,7 +455,7 @@
             this.bunifuTextBox2.SelectionLength = 0;
             this.bunifuTextBox2.SelectionStart = 0;
             this.bunifuTextBox2.ShortcutsEnabled = true;
-            this.bunifuTextBox2.Size = new System.Drawing.Size(240, 35);
+            this.bunifuTextBox2.Size = new System.Drawing.Size(280, 43);
             this.bunifuTextBox2.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2.TabIndex = 4;
             this.bunifuTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -478,12 +481,13 @@
             this.gunaAdvenceTileButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton2.CheckedImage")));
             this.gunaAdvenceTileButton2.CheckedLineColor = System.Drawing.Color.DimGray;
             this.gunaAdvenceTileButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceTileButton2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaAdvenceTileButton2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaAdvenceTileButton2.ForeColor = System.Drawing.Color.White;
             this.gunaAdvenceTileButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton2.Image")));
             this.gunaAdvenceTileButton2.ImageSize = new System.Drawing.Size(35, 35);
             this.gunaAdvenceTileButton2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceTileButton2.Location = new System.Drawing.Point(531, 5);
+            this.gunaAdvenceTileButton2.Location = new System.Drawing.Point(633, 5);
+            this.gunaAdvenceTileButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaAdvenceTileButton2.Name = "gunaAdvenceTileButton2";
             this.gunaAdvenceTileButton2.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaAdvenceTileButton2.OnHoverBorderColor = System.Drawing.Color.Red;
@@ -492,17 +496,18 @@
             this.gunaAdvenceTileButton2.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.gunaAdvenceTileButton2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceTileButton2.Radius = 10;
-            this.gunaAdvenceTileButton2.Size = new System.Drawing.Size(78, 57);
+            this.gunaAdvenceTileButton2.Size = new System.Drawing.Size(70, 54);
             this.gunaAdvenceTileButton2.TabIndex = 3;
-            this.gunaAdvenceTileButton2.Text = "Filtrer";
+            this.gunaAdvenceTileButton2.Text = "FILTRER";
             // 
             // gunaVSeparator2
             // 
             this.gunaVSeparator2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.gunaVSeparator2.LineColor = System.Drawing.Color.White;
-            this.gunaVSeparator2.Location = new System.Drawing.Point(508, 7);
+            this.gunaVSeparator2.Location = new System.Drawing.Point(594, 2);
+            this.gunaVSeparator2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaVSeparator2.Name = "gunaVSeparator2";
-            this.gunaVSeparator2.Size = new System.Drawing.Size(10, 52);
+            this.gunaVSeparator2.Size = new System.Drawing.Size(12, 64);
             this.gunaVSeparator2.TabIndex = 2;
             // 
             // gunaAdvenceTileButton4
@@ -520,12 +525,13 @@
             this.gunaAdvenceTileButton4.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton4.CheckedImage")));
             this.gunaAdvenceTileButton4.CheckedLineColor = System.Drawing.Color.DimGray;
             this.gunaAdvenceTileButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceTileButton4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaAdvenceTileButton4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaAdvenceTileButton4.ForeColor = System.Drawing.Color.Red;
             this.gunaAdvenceTileButton4.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton4.Image")));
             this.gunaAdvenceTileButton4.ImageSize = new System.Drawing.Size(35, 35);
             this.gunaAdvenceTileButton4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceTileButton4.Location = new System.Drawing.Point(333, 4);
+            this.gunaAdvenceTileButton4.Location = new System.Drawing.Point(391, 5);
+            this.gunaAdvenceTileButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaAdvenceTileButton4.Name = "gunaAdvenceTileButton4";
             this.gunaAdvenceTileButton4.OnHoverBaseColor = System.Drawing.Color.Red;
             this.gunaAdvenceTileButton4.OnHoverBorderColor = System.Drawing.Color.White;
@@ -534,9 +540,9 @@
             this.gunaAdvenceTileButton4.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.gunaAdvenceTileButton4.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceTileButton4.Radius = 10;
-            this.gunaAdvenceTileButton4.Size = new System.Drawing.Size(78, 57);
+            this.gunaAdvenceTileButton4.Size = new System.Drawing.Size(81, 54);
             this.gunaAdvenceTileButton4.TabIndex = 0;
-            this.gunaAdvenceTileButton4.Text = "Nouveau";
+            this.gunaAdvenceTileButton4.Text = "NOUVEAU";
             // 
             // gunaPanel2
             // 
@@ -547,9 +553,10 @@
             this.gunaPanel2.Controls.Add(this.gunaAdvenceTileButton5);
             this.gunaPanel2.Controls.Add(this.gunaAdvenceTileButton4);
             this.gunaPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gunaPanel2.Location = new System.Drawing.Point(0, 500);
+            this.gunaPanel2.Location = new System.Drawing.Point(0, 523);
+            this.gunaPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaPanel2.Name = "gunaPanel2";
-            this.gunaPanel2.Size = new System.Drawing.Size(1366, 64);
+            this.gunaPanel2.Size = new System.Drawing.Size(1366, 63);
             this.gunaPanel2.TabIndex = 4;
             // 
             // gunaAdvenceTileButton5
@@ -567,12 +574,13 @@
             this.gunaAdvenceTileButton5.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton5.CheckedImage")));
             this.gunaAdvenceTileButton5.CheckedLineColor = System.Drawing.Color.DimGray;
             this.gunaAdvenceTileButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceTileButton5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaAdvenceTileButton5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaAdvenceTileButton5.ForeColor = System.Drawing.Color.Red;
             this.gunaAdvenceTileButton5.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceTileButton5.Image")));
             this.gunaAdvenceTileButton5.ImageSize = new System.Drawing.Size(35, 35);
             this.gunaAdvenceTileButton5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceTileButton5.Location = new System.Drawing.Point(422, 4);
+            this.gunaAdvenceTileButton5.Location = new System.Drawing.Point(494, 5);
+            this.gunaAdvenceTileButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gunaAdvenceTileButton5.Name = "gunaAdvenceTileButton5";
             this.gunaAdvenceTileButton5.OnHoverBaseColor = System.Drawing.Color.Red;
             this.gunaAdvenceTileButton5.OnHoverBorderColor = System.Drawing.Color.White;
@@ -581,22 +589,24 @@
             this.gunaAdvenceTileButton5.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.gunaAdvenceTileButton5.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceTileButton5.Radius = 10;
-            this.gunaAdvenceTileButton5.Size = new System.Drawing.Size(78, 57);
+            this.gunaAdvenceTileButton5.Size = new System.Drawing.Size(82, 54);
             this.gunaAdvenceTileButton5.TabIndex = 1;
-            this.gunaAdvenceTileButton5.Text = "Modifier";
+            this.gunaAdvenceTileButton5.Text = "MODIFIER";
             // 
             // splitContainerControl1
             // 
             this.splitContainerControl1.CollapsePanel = DevExpress.XtraEditors.SplitCollapsePanel.Panel1;
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 31);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 38);
+            this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.TileControl);
             this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.Controls.Add(this.gunaPanel3);
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.ShowSplitGlyph = DevExpress.Utils.DefaultBoolean.True;
-            this.splitContainerControl1.Size = new System.Drawing.Size(1366, 469);
-            this.splitContainerControl1.SplitterPosition = 241;
+            this.splitContainerControl1.Size = new System.Drawing.Size(1366, 485);
+            this.splitContainerControl1.SplitterPosition = 281;
             this.splitContainerControl1.TabIndex = 5;
             // 
             // TileControl
@@ -610,7 +620,7 @@
             this.TileControl.AppearanceItem.Hovered.Options.UseFont = true;
             this.TileControl.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.TileControl.AppearanceItem.Normal.BorderColor = System.Drawing.Color.Red;
-            this.TileControl.AppearanceItem.Normal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TileControl.AppearanceItem.Normal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TileControl.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Red;
             this.TileControl.AppearanceItem.Normal.Options.UseBackColor = true;
             this.TileControl.AppearanceItem.Normal.Options.UseBorderColor = true;
@@ -638,11 +648,13 @@
             this.TileControl.ItemImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
             this.TileControl.ItemSize = 95;
             this.TileControl.Location = new System.Drawing.Point(0, 0);
+            this.TileControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TileControl.MaxId = 4;
             this.TileControl.Name = "TileControl";
             this.TileControl.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.TileControl.Padding = new System.Windows.Forms.Padding(21, 22, 21, 22);
             this.TileControl.SelectedItem = this.tileItem7;
-            this.TileControl.Size = new System.Drawing.Size(241, 469);
+            this.TileControl.Size = new System.Drawing.Size(281, 485);
             this.TileControl.TabIndex = 1;
             this.TileControl.Text = "tileControl1";
             // 
@@ -665,7 +677,7 @@
             tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
             tileItemElement8.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement8.ImageOptions.ImageSize = new System.Drawing.Size(60, 60);
+            tileItemElement8.ImageOptions.ImageSize = new System.Drawing.Size(40, 40);
             tileItemElement8.Text = "TOUS LES PRODUITS";
             tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
             tileItemElement9.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -700,7 +712,7 @@
             this.tileItem6.AppearanceItem.Selected.Options.UseFont = true;
             tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             tileItemElement10.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement10.ImageOptions.ImageSize = new System.Drawing.Size(60, 60);
+            tileItemElement10.ImageOptions.ImageSize = new System.Drawing.Size(40, 40);
             tileItemElement10.Text = "CASIERS";
             tileItemElement11.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tileItemElement11.Appearance.Hovered.Options.UseFont = true;
@@ -734,7 +746,7 @@
             this.tileItem5.AppearanceItem.Selected.Options.UseFont = true;
             tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             tileItemElement12.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement12.ImageOptions.ImageSize = new System.Drawing.Size(60, 60);
+            tileItemElement12.ImageOptions.ImageSize = new System.Drawing.Size(40, 40);
             tileItemElement12.Text = "PALETTES";
             tileItemElement13.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tileItemElement13.Appearance.Hovered.Options.UseFont = true;
@@ -766,23 +778,33 @@
             this.tileItem1.AppearanceItem.Pressed.Options.UseFont = true;
             this.tileItem1.AppearanceItem.Selected.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tileItem1.AppearanceItem.Selected.Options.UseFont = true;
-            tileItemElement14.ImageOptions.ImageSize = new System.Drawing.Size(60, 60);
+            tileItemElement14.ImageOptions.ImageSize = new System.Drawing.Size(40, 40);
             tileItemElement14.Text = "AUTRES";
             this.tileItem1.Elements.Add(tileItemElement14);
             this.tileItem1.Id = 3;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
             // 
+            // gunaPanel3
+            // 
+            this.gunaPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gunaPanel3.Location = new System.Drawing.Point(0, 0);
+            this.gunaPanel3.Name = "gunaPanel3";
+            this.gunaPanel3.Size = new System.Drawing.Size(1075, 485);
+            this.gunaPanel3.TabIndex = 0;
+            // 
             // AllProduit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.gunaPanel2);
             this.Controls.Add(this.gunaPanel1);
+            this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AllProduit";
-            this.Size = new System.Drawing.Size(1366, 564);
+            this.Size = new System.Drawing.Size(1366, 586);
             this.gunaPanel1.ResumeLayout(false);
             this.gunaPanel1.PerformLayout();
             this.gunaPanel2.ResumeLayout(false);
@@ -824,5 +846,6 @@
         private DevExpress.XtraEditors.TileItem tileItem5;
         private DevExpress.XtraEditors.TileGroup tileGroup6;
         private DevExpress.XtraEditors.TileItem tileItem1;
+        private Guna.UI.WinForms.GunaPanel gunaPanel3;
     }
 }

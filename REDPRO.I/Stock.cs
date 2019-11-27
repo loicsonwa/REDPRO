@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class UserControl1 : UserControl
+    public partial class Stock : UserControl
     {
-        public UserControl1()
+        public Stock()
         {
             InitializeComponent();
         }
-
-      
     }
 }

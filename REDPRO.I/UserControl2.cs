@@ -14,6 +14,10 @@ namespace REDPRO.I
     {
         public UserControl2()
         {
+        //    if (Program.IsInDesignMode())
+        //    {
+        //        return;
+        //    }
             InitializeComponent();
         }
 

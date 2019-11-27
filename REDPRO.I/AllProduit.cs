@@ -14,6 +14,10 @@ namespace REDPRO.I
     {
         public AllProduit()
         {
+            //if (Program.IsInDesignMode())
+            //{
+            //    return;
+            //}
             InitializeComponent();
         }
     }

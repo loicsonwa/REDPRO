@@ -28,31 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement16 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement17 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement18 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement21 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement22 = new DevExpress.XtraEditors.TileItemElement();
-            Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
             this.tileBar1 = new DevExpress.XtraBars.Navigation.TileBar();
             this.tileBarGroup2 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.Produit = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.DropDownProduit = new DevExpress.XtraBars.Navigation.TileBarDropDownContainer();
             this.tileBar2 = new DevExpress.XtraBars.Navigation.TileBar();
             this.tileBarGroup4 = new DevExpress.XtraBars.Navigation.TileBarGroup();
@@ -63,33 +60,31 @@
             this.tileBarItem3 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup10 = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.tileBarItem4 = new DevExpress.XtraBars.Navigation.TileBarItem();
-            this.Stock = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.DropDownGestion = new DevExpress.XtraBars.Navigation.TileBarDropDownContainer();
-            this.Clients = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup3 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.Fournisseur = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup6 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.Caisse = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup7 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.Taches = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup8 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.Stats = new DevExpress.XtraBars.Navigation.TileBarItem();
-            this.tileBarItem6 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
             this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
-            this.addProduit1 = new REDPRO.I.AddProduit();
+            this.Produit = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Stock = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Clients = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Fournisseur = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Caisse = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Taches = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.Stats = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.tileBarItem6 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.allProduit1 = new REDPRO.I.AllProduit();
-            this.ultraPanel1 = new Infragistics.Win.Misc.UltraPanel();
-            this.allProduit2 = new REDPRO.I.AllProduit();
+            this.addProduit1 = new REDPRO.I.AddProduit();
             this.gunaPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.gunaPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DropDownProduit)).BeginInit();
             this.DropDownProduit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DropDownGestion)).BeginInit();
-            this.DropDownGestion.SuspendLayout();
             this.gunaPanel2.SuspendLayout();
-            this.ultraPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaPanel1
@@ -127,18 +122,6 @@
             this.gunaSeparator1.Name = "gunaSeparator1";
             this.gunaSeparator1.Size = new System.Drawing.Size(1366, 10);
             this.gunaSeparator1.TabIndex = 5;
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.Image")));
-            this.gunaPictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(100, 74);
-            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox1.TabIndex = 5;
-            this.gunaPictureBox1.TabStop = false;
             // 
             // gunaLabel1
             // 
@@ -248,21 +231,6 @@
             this.tileBarGroup2.Items.Add(this.Clients);
             this.tileBarGroup2.Name = "tileBarGroup2";
             // 
-            // Produit
-            // 
-            this.Produit.DropDownControl = this.DropDownProduit;
-            this.Produit.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement13.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement13.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement13.Text = "PRODUITS";
-            this.Produit.Elements.Add(tileItemElement13);
-            this.Produit.Id = 2;
-            this.Produit.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Produit.Name = "Produit";
-            this.Produit.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
-            this.Produit.ShowItemShadow = DevExpress.Utils.DefaultBoolean.True;
-            // 
             // DropDownProduit
             // 
             this.DropDownProduit.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
@@ -325,8 +293,8 @@
             // tileBarItem1
             // 
             this.tileBarItem1.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement5.Text = "CONSULTER LES PRODUITS";
-            this.tileBarItem1.Elements.Add(tileItemElement5);
+            tileItemElement1.Text = "CONSULTER LES PRODUITS";
+            this.tileBarItem1.Elements.Add(tileItemElement1);
             this.tileBarItem1.Id = 0;
             this.tileBarItem1.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem1.Name = "tileBarItem1";
@@ -339,8 +307,8 @@
             // tileBarItem2
             // 
             this.tileBarItem2.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement14.Text = "CONSULTER LES TYPES D\'EMBALLAGES";
-            this.tileBarItem2.Elements.Add(tileItemElement14);
+            tileItemElement2.Text = "CONSULTER LES TYPES D\'EMBALLAGES";
+            this.tileBarItem2.Elements.Add(tileItemElement2);
             this.tileBarItem2.Id = 1;
             this.tileBarItem2.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem2.Name = "tileBarItem2";
@@ -353,8 +321,8 @@
             // tileBarItem3
             // 
             this.tileBarItem3.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement15.Text = "STOCK DE CAPSULES GAGNANTES";
-            this.tileBarItem3.Elements.Add(tileItemElement15);
+            tileItemElement3.Text = "STOCK DE CAPSULES GAGNANTES";
+            this.tileBarItem3.Elements.Add(tileItemElement3);
             this.tileBarItem3.Id = 2;
             this.tileBarItem3.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem3.Name = "tileBarItem3";
@@ -367,147 +335,43 @@
             // tileBarItem4
             // 
             this.tileBarItem4.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement16.Text = "FAMILLES DE PRODUITS";
-            this.tileBarItem4.Elements.Add(tileItemElement16);
+            tileItemElement4.Text = "FAMILLES DE PRODUITS";
+            this.tileBarItem4.Elements.Add(tileItemElement4);
             this.tileBarItem4.Id = 3;
             this.tileBarItem4.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem4.Name = "tileBarItem4";
-            // 
-            // Stock
-            // 
-            this.Stock.DropDownControl = this.DropDownGestion;
-            this.Stock.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement17.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement17.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement17.Text = "GESTION DE STOCK";
-            this.Stock.Elements.Add(tileItemElement17);
-            this.Stock.Id = 3;
-            this.Stock.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Stock.Name = "Stock";
-            this.Stock.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
             // 
             // DropDownGestion
             // 
             this.DropDownGestion.Appearance.BackColor = System.Drawing.Color.Red;
             this.DropDownGestion.Appearance.Options.UseBackColor = true;
-            this.DropDownGestion.Controls.Add(this.ultraPanel1);
             this.DropDownGestion.Location = new System.Drawing.Point(309, 193);
             this.DropDownGestion.Name = "DropDownGestion";
             this.DropDownGestion.Size = new System.Drawing.Size(938, 128);
             this.DropDownGestion.TabIndex = 3;
-            // 
-            // Clients
-            // 
-            this.Clients.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            tileItemElement6.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement6.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement6.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement6.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement6.Text = "CLIENTS";
-            this.Clients.Elements.Add(tileItemElement6);
-            this.Clients.Id = 0;
-            this.Clients.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Clients.Name = "Clients";
-            this.Clients.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
             // 
             // tileBarGroup3
             // 
             this.tileBarGroup3.Items.Add(this.Fournisseur);
             this.tileBarGroup3.Name = "tileBarGroup3";
             // 
-            // Fournisseur
-            // 
-            this.Fournisseur.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement18.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement18.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement18.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement18.Text = "FOURNISSEUR";
-            this.Fournisseur.Elements.Add(tileItemElement18);
-            this.Fournisseur.Id = 1;
-            this.Fournisseur.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Fournisseur.Name = "Fournisseur";
-            this.Fournisseur.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
-            // 
             // tileBarGroup6
             // 
             this.tileBarGroup6.Items.Add(this.Caisse);
             this.tileBarGroup6.Name = "tileBarGroup6";
-            // 
-            // Caisse
-            // 
-            this.Caisse.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement19.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            tileItemElement19.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement19.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement19.Text = "BANQUE ET CAISSE";
-            this.Caisse.Elements.Add(tileItemElement19);
-            this.Caisse.Id = 4;
-            this.Caisse.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Caisse.Name = "Caisse";
-            this.Caisse.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
             // 
             // tileBarGroup7
             // 
             this.tileBarGroup7.Items.Add(this.Taches);
             this.tileBarGroup7.Name = "tileBarGroup7";
             // 
-            // Taches
-            // 
-            this.Taches.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement20.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            tileItemElement20.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement20.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement20.Text = "TÂCHES";
-            this.Taches.Elements.Add(tileItemElement20);
-            this.Taches.Id = 5;
-            this.Taches.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Taches.Name = "Taches";
-            // 
             // tileBarGroup8
             // 
             this.tileBarGroup8.Items.Add(this.Stats);
             this.tileBarGroup8.Name = "tileBarGroup8";
             // 
-            // Stats
-            // 
-            this.Stats.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement21.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement21.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
-            tileItemElement21.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement21.Text = "STATISTIQUES";
-            this.Stats.Elements.Add(tileItemElement21);
-            this.Stats.Id = 6;
-            this.Stats.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.Stats.Name = "Stats";
-            // 
-            // tileBarItem6
-            // 
-            this.tileBarItem6.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement22.AnimateTransition = DevExpress.Utils.DefaultBoolean.True;
-            tileItemElement22.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement22.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement22.Appearance.Normal.BackColor = System.Drawing.Color.Transparent;
-            tileItemElement22.Appearance.Normal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement22.Appearance.Normal.Options.UseBackColor = true;
-            tileItemElement22.Appearance.Normal.Options.UseFont = true;
-            tileItemElement22.Appearance.Pressed.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement22.Appearance.Pressed.Options.UseFont = true;
-            tileItemElement22.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            tileItemElement22.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement22.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
-            tileItemElement22.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement22.Text = "CLIENTS";
-            this.tileBarItem6.Elements.Add(tileItemElement22);
-            this.tileBarItem6.Id = 0;
-            this.tileBarItem6.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
-            this.tileBarItem6.Name = "tileBarItem6";
-            this.tileBarItem6.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
-            // 
             // gunaPanel2
             // 
-            this.gunaPanel2.Controls.Add(this.allProduit2);
             this.gunaPanel2.Controls.Add(this.addProduit1);
             this.gunaPanel2.Controls.Add(this.gunaSeparator2);
             this.gunaPanel2.Controls.Add(this.DropDownGestion);
@@ -527,16 +391,134 @@
             this.gunaSeparator2.Size = new System.Drawing.Size(1366, 10);
             this.gunaSeparator2.TabIndex = 5;
             // 
-            // addProduit1
+            // Produit
             // 
-            this.addProduit1.BackColor = System.Drawing.Color.White;
-            this.addProduit1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addProduit1.Location = new System.Drawing.Point(333, 157);
-            this.addProduit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.addProduit1.Name = "addProduit1";
-            this.addProduit1.Size = new System.Drawing.Size(1366, 586);
-            this.addProduit1.TabIndex = 7;
-            this.addProduit1.Visible = false;
+            this.Produit.DropDownControl = this.DropDownProduit;
+            this.Produit.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement5.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement5.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement5.Text = "PRODUITS";
+            this.Produit.Elements.Add(tileItemElement5);
+            this.Produit.Id = 2;
+            this.Produit.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Produit.Name = "Produit";
+            this.Produit.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            this.Produit.ShowItemShadow = DevExpress.Utils.DefaultBoolean.True;
+            // 
+            // Stock
+            // 
+            this.Stock.DropDownControl = this.DropDownGestion;
+            this.Stock.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement6.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement6.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement6.Text = "GESTION DE STOCK";
+            this.Stock.Elements.Add(tileItemElement6);
+            this.Stock.Id = 3;
+            this.Stock.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Stock.Name = "Stock";
+            this.Stock.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            // 
+            // Clients
+            // 
+            this.Clients.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement7.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement7.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement7.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement7.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement7.Text = "CLIENTS";
+            this.Clients.Elements.Add(tileItemElement7);
+            this.Clients.Id = 0;
+            this.Clients.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Clients.Name = "Clients";
+            this.Clients.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            // 
+            // Fournisseur
+            // 
+            this.Fournisseur.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement8.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement8.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement8.Text = "FOURNISSEUR";
+            this.Fournisseur.Elements.Add(tileItemElement8);
+            this.Fournisseur.Id = 1;
+            this.Fournisseur.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Fournisseur.Name = "Fournisseur";
+            this.Fournisseur.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            // 
+            // Caisse
+            // 
+            this.Caisse.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement9.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement9.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement9.Text = "BANQUE ET CAISSE";
+            this.Caisse.Elements.Add(tileItemElement9);
+            this.Caisse.Id = 4;
+            this.Caisse.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Caisse.Name = "Caisse";
+            this.Caisse.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            // 
+            // Taches
+            // 
+            this.Taches.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement10.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement10.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement10.Text = "TÂCHES";
+            this.Taches.Elements.Add(tileItemElement10);
+            this.Taches.Id = 5;
+            this.Taches.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Taches.Name = "Taches";
+            // 
+            // Stats
+            // 
+            this.Stats.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement11.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Squeeze;
+            tileItemElement11.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement11.Text = "STATISTIQUES";
+            this.Stats.Elements.Add(tileItemElement11);
+            this.Stats.Id = 6;
+            this.Stats.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.Stats.Name = "Stats";
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.Image")));
+            this.gunaPictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(100, 74);
+            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaPictureBox1.TabIndex = 5;
+            this.gunaPictureBox1.TabStop = false;
+            // 
+            // tileBarItem6
+            // 
+            this.tileBarItem6.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            tileItemElement12.AnimateTransition = DevExpress.Utils.DefaultBoolean.True;
+            tileItemElement12.Appearance.Hovered.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement12.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement12.Appearance.Normal.BackColor = System.Drawing.Color.Transparent;
+            tileItemElement12.Appearance.Normal.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement12.Appearance.Normal.Options.UseBackColor = true;
+            tileItemElement12.Appearance.Normal.Options.UseFont = true;
+            tileItemElement12.Appearance.Pressed.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement12.Appearance.Pressed.Options.UseFont = true;
+            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement12.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement12.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
+            tileItemElement12.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement12.Text = "CLIENTS";
+            this.tileBarItem6.Elements.Add(tileItemElement12);
+            this.tileBarItem6.Id = 0;
+            this.tileBarItem6.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.tileBarItem6.Name = "tileBarItem6";
+            this.tileBarItem6.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
             // 
             // allProduit1
             // 
@@ -548,27 +530,16 @@
             this.allProduit1.Size = new System.Drawing.Size(1172, 458);
             this.allProduit1.TabIndex = 0;
             // 
-            // ultraPanel1
+            // addProduit1
             // 
-            appearance2.AlphaLevel = ((short)(216));
-            appearance2.BackColor = System.Drawing.Color.Black;
-            appearance2.BackColor2 = System.Drawing.Color.Black;
-            this.ultraPanel1.Appearance = appearance2;
-            this.ultraPanel1.Location = new System.Drawing.Point(-309, -375);
-            this.ultraPanel1.Name = "ultraPanel1";
-            this.ultraPanel1.Size = new System.Drawing.Size(1328, 756);
-            this.ultraPanel1.TabIndex = 0;
-            // 
-            // allProduit2
-            // 
-            this.allProduit2.BackColor = System.Drawing.Color.White;
-            this.allProduit2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.allProduit2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.allProduit2.Location = new System.Drawing.Point(0, 0);
-            this.allProduit2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.allProduit2.Name = "allProduit2";
-            this.allProduit2.Size = new System.Drawing.Size(1366, 586);
-            this.allProduit2.TabIndex = 8;
+            this.addProduit1.BackColor = System.Drawing.Color.White;
+            this.addProduit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.addProduit1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addProduit1.Location = new System.Drawing.Point(0, 0);
+            this.addProduit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.addProduit1.Name = "addProduit1";
+            this.addProduit1.Size = new System.Drawing.Size(1366, 586);
+            this.addProduit1.TabIndex = 6;
             // 
             // Principal
             // 
@@ -586,14 +557,12 @@
             this.Text = "Principal";
             this.gunaPanel1.ResumeLayout(false);
             this.gunaPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.gunaPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DropDownProduit)).EndInit();
             this.DropDownProduit.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DropDownGestion)).EndInit();
-            this.DropDownGestion.ResumeLayout(false);
             this.gunaPanel2.ResumeLayout(false);
-            this.ultraPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -637,7 +606,5 @@
         private DevExpress.XtraBars.Navigation.TileBarDropDownContainer DropDownGestion;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator2;
         private AddProduit addProduit1;
-        private Infragistics.Win.Misc.UltraPanel ultraPanel1;
-        private AllProduit allProduit2;
     }
 }

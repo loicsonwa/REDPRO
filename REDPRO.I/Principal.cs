@@ -18,6 +18,11 @@ namespace REDPRO.I
             MainPrincipal = this;
             InitializeComponent();
         }
-        
+
+        public void Alert(string msg, AlertNotification.alertTypeEnum type)
+        {
+            AlertNotification f = new AlertNotification();
+            f.setAlert(msg, type);
+        }
     }
 }

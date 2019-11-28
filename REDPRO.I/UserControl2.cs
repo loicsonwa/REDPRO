@@ -10,20 +10,20 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Inscription : UserControl
+    public partial class UserControl2 : UserControl
     {
-        public Inscription()
+        public UserControl2()
         {
-            //if (Program.IsInDesignMode())
-            //{
-            //    return;
-            //}
+        //    if (Program.IsInDesignMode())
+        //    {
+        //        return;
+        //    }
             InitializeComponent();
         }
 
-        private void versConnexion_Click(object sender, EventArgs e)
+        private void tileItem1_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
-            Demarrage.MainInstance.AfficheConnexion();
+
         }
     }
 }

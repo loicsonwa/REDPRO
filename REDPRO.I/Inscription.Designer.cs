@@ -50,6 +50,8 @@
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.versConnexion = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
@@ -60,16 +62,65 @@
             this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.bunifuTextBox5 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.bunifuDropdown1 = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.gunaLabel4);
+            this.panel1.Controls.Add(this.versConnexion);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(378, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(188, 579);
             this.panel1.TabIndex = 0;
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel4.Location = new System.Drawing.Point(6, 266);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(174, 16);
+            this.gunaLabel4.TabIndex = 11;
+            this.gunaLabel4.Text = "Vous avez déjà un compte ?";
+            // 
+            // versConnexion
+            // 
+            this.versConnexion.Animated = true;
+            this.versConnexion.AnimationHoverSpeed = 0.07F;
+            this.versConnexion.AnimationSpeed = 0.03F;
+            this.versConnexion.BackColor = System.Drawing.Color.Transparent;
+            this.versConnexion.BaseColor = System.Drawing.Color.Red;
+            this.versConnexion.BorderColor = System.Drawing.Color.White;
+            this.versConnexion.BorderSize = 2;
+            this.versConnexion.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.versConnexion.CheckedBorderColor = System.Drawing.Color.Black;
+            this.versConnexion.CheckedForeColor = System.Drawing.Color.White;
+            this.versConnexion.CheckedImage = ((System.Drawing.Image)(resources.GetObject("versConnexion.CheckedImage")));
+            this.versConnexion.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.versConnexion.FocusedColor = System.Drawing.Color.Empty;
+            this.versConnexion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.versConnexion.ForeColor = System.Drawing.Color.White;
+            this.versConnexion.Image = ((System.Drawing.Image)(resources.GetObject("versConnexion.Image")));
+            this.versConnexion.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.versConnexion.ImageSize = new System.Drawing.Size(20, 20);
+            this.versConnexion.LineColor = System.Drawing.Color.White;
+            this.versConnexion.Location = new System.Drawing.Point(9, 297);
+            this.versConnexion.Name = "versConnexion";
+            this.versConnexion.OnHoverBaseColor = System.Drawing.Color.White;
+            this.versConnexion.OnHoverBorderColor = System.Drawing.Color.Red;
+            this.versConnexion.OnHoverForeColor = System.Drawing.Color.Red;
+            this.versConnexion.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("versConnexion.OnHoverImage")));
+            this.versConnexion.OnHoverLineColor = System.Drawing.Color.Red;
+            this.versConnexion.OnPressedColor = System.Drawing.Color.Red;
+            this.versConnexion.Radius = 10;
+            this.versConnexion.Size = new System.Drawing.Size(153, 42);
+            this.versConnexion.TabIndex = 11;
+            this.versConnexion.Text = "Se connecter";
+            this.versConnexion.Click += new System.EventHandler(this.versConnexion_Click);
             // 
             // gunaAdvenceButton1
             // 
@@ -557,6 +608,8 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name = "Inscription";
             this.Size = new System.Drawing.Size(566, 579);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -575,5 +628,7 @@
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox bunifuTextBox4;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox bunifuTextBox5;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel4;
+        private Guna.UI.WinForms.GunaAdvenceButton versConnexion;
     }
 }

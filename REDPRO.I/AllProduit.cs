@@ -10,20 +10,15 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Inscription : UserControl
+    public partial class AllProduit : UserControl
     {
-        public Inscription()
+        public AllProduit()
         {
             //if (Program.IsInDesignMode())
             //{
             //    return;
             //}
             InitializeComponent();
-        }
-
-        private void versConnexion_Click(object sender, EventArgs e)
-        {
-            Demarrage.MainInstance.AfficheConnexion();
         }
     }
 }

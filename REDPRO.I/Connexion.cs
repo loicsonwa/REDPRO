@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Inscription : UserControl
+    public partial class Connexion : UserControl
     {
-        public Inscription()
+        public Connexion()
         {
             //if (Program.IsInDesignMode())
             //{
@@ -21,9 +21,9 @@ namespace REDPRO.I
             InitializeComponent();
         }
 
-        private void versConnexion_Click(object sender, EventArgs e)
+        private void versIncription_Click(object sender, EventArgs e)
         {
-            Demarrage.MainInstance.AfficheConnexion();
+            Demarrage.MainInstance.AfficheInscription();
         }
     }
 }

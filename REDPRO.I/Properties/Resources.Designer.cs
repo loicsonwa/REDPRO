@@ -103,6 +103,26 @@ namespace REDPRO.I.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photo_2019_12_13_10_53_20 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2019-12-13_10-53-20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2019_12_13_11_05_39 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2019-12-13_11-05-39", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap save_208px_pngWHITE {
             get {
                 object obj = ResourceManager.GetObject("save_208px.pngWHITE", resourceCulture);

@@ -90,20 +90,79 @@
     <Reference Include="DevExpress.XtraScheduler.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraScheduler.v19.2.Core, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraVerticalGrid.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="Guna.UI, Version=1.6.0.0, Culture=neutral, PublicKeyToken=537479e8cf7071a7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Logiciels\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\..\TRANSFER\SEARCHING\SEARCH\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Example\Example\bin\Debug\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics4.Documents.IO.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Shared.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Win.Misc.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
     <Reference Include="Infragistics4.Win.UltraWinEditors.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinGauge.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGauge.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.DocumentExport.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.DocumentExport.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.ExcelExport.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.ExcelExport.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinGrid.WordWriter.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinGrid.WordWriter.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinInkProvider.Ink17.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinInkProvider.Ink17.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinListBar.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinListBar.v19.1.dll</HintPath>
+    </Reference>
     <Reference Include="Infragistics4.Win.UltraWinListView.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinLiveTileView.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinLiveTileView.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinMaskedEdit.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinMaskedEdit.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinOfficeNavBar.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinOfficeNavBar.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinPivotGrid.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinPivotGrid.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinPrintPreviewDialog.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinRadialMenu.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinRadialMenu.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinSpellChecker.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinSpellChecker.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinSpreadsheet.ChartAdapter.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinSpreadsheet.ChartAdapter.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinSpreadsheet.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinSpreadsheet.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinStatusBar.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinTabbedMdi.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTabbedMdi.v19.1.dll</HintPath>
+    </Reference>
     <Reference Include="Infragistics4.Win.UltraWinTabControl.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
-    <Reference Include="Infragistics4.Win.UltraWinToolbars.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
-    <Reference Include="Infragistics4.Win.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinToolbars.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinTree.v19.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinTree.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.v19.1, Version=19.1.20191.238, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.v19.1.Design">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v19.1.Design.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -181,11 +240,11 @@
     <Compile Include="ListeProduit.Designer.cs">
       <DependentUpon>ListeProduit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal.cs">
+    <Compile Include="Princip.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="Princip.Designer.cs">
+      <DependentUpon>Princip.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,8 +325,8 @@
     <EmbeddedResource Include="ListeProduit.resx">
       <DependentUpon>ListeProduit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Princip.resx">
+      <DependentUpon>Princip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

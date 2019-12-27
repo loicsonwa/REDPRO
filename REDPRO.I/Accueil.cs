@@ -108,7 +108,7 @@ namespace REDPRO.I
 
         private void button2_Click(object sender, EventArgs e)
         {
-            flyoutPanel1.Show();
+            
         }
     }
 

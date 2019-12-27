@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace REDPRO.I
 {
-    public partial class Principal : Form
+    public partial class Princip : Form
     {
-        public static Principal MainPrincipal;
-        public Principal()
+        public static Princip MainPrincipal;
+        public Princip()
         {
             MainPrincipal = this;
             InitializeComponent();

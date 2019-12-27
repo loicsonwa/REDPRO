@@ -34,16 +34,14 @@
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.flyoutPanel1 = new DevExpress.Utils.FlyoutPanel();
             this.userControl1 = new REDPRO.I.UserControl();
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.flyoutPanel1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,6 +123,17 @@
             this.panel2.Size = new System.Drawing.Size(1366, 48);
             this.panel2.TabIndex = 2;
             // 
+            // button2
+            // 
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            this.button2.Location = new System.Drawing.Point(639, 7);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 35);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -140,13 +149,22 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.flyoutPanel1);
             this.panel3.Controls.Add(this.userControl1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 84);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1366, 606);
             this.panel3.TabIndex = 3;
+            // 
+            // userControl1
+            // 
+            this.userControl1.Appearance.BackColor = System.Drawing.Color.White;
+            this.userControl1.Appearance.Options.UseBackColor = true;
+            this.userControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControl1.Location = new System.Drawing.Point(0, 0);
+            this.userControl1.Name = "userControl1";
+            this.userControl1.Size = new System.Drawing.Size(1366, 606);
+            this.userControl1.TabIndex = 0;
             // 
             // alertControl1
             // 
@@ -161,40 +179,6 @@
             this.alertControl1.ButtonClick += new DevExpress.XtraBars.Alerter.AlertButtonClickEventHandler(this.alertControl1_ButtonClick);
             this.alertControl1.ButtonDownChanged += new DevExpress.XtraBars.Alerter.AlertButtonDownChangedEventHandler(this.alertControl1_ButtonDownChanged);
             this.alertControl1.BeforeFormShow += new DevExpress.XtraBars.Alerter.AlertFormEventHandler(this.alertControl1_BeforeFormShow);
-            // 
-            // button2
-            // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.button2.Location = new System.Drawing.Point(639, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 35);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // flyoutPanel1
-            // 
-            this.flyoutPanel1.Appearance.BackColor = System.Drawing.Color.Red;
-            this.flyoutPanel1.Appearance.Options.UseBackColor = true;
-            this.flyoutPanel1.Location = new System.Drawing.Point(279, 171);
-            this.flyoutPanel1.Name = "flyoutPanel1";
-            this.flyoutPanel1.OptionsBeakPanel.AnimationType = DevExpress.Utils.Win.PopupToolWindowAnimation.Slide;
-            this.flyoutPanel1.OptionsBeakPanel.BackColor = System.Drawing.Color.Red;
-            this.flyoutPanel1.OwnerControl = this;
-            this.flyoutPanel1.ParentForm = this;
-            this.flyoutPanel1.Size = new System.Drawing.Size(150, 150);
-            this.flyoutPanel1.TabIndex = 1;
-            // 
-            // userControl1
-            // 
-            this.userControl1.Appearance.BackColor = System.Drawing.Color.White;
-            this.userControl1.Appearance.Options.UseBackColor = true;
-            this.userControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.userControl1.Location = new System.Drawing.Point(0, 0);
-            this.userControl1.Name = "userControl1";
-            this.userControl1.Size = new System.Drawing.Size(1366, 606);
-            this.userControl1.TabIndex = 0;
             // 
             // Accueil
             // 
@@ -217,7 +201,6 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.flyoutPanel1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -234,6 +217,5 @@
         private System.Windows.Forms.Button button1;
         private DevExpress.XtraBars.Alerter.AlertControl alertControl1;
         private System.Windows.Forms.Button button2;
-        private DevExpress.Utils.FlyoutPanel flyoutPanel1;
     }
 }
